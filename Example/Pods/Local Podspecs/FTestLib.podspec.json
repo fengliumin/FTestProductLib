@@ -12,7 +12,7 @@
     "fengliumin@163.com": "fengliumin@163.com"
   },
   "source": {
-    "git": "/Users/qitmac001064/Desktop/hh/FTestLib/FTestLib",
+    "git": "https://github.com/fengliumin@163.com/FTestLib.git",
     "tag": "0.1.0"
   },
   "platforms": {

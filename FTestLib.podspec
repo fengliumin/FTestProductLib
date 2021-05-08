@@ -25,9 +25,9 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fengliumin@163.com' => 'fengliumin@163.com' }
-  #s.source           = { :git => 'https://github.com/fengliumin@163.com/FTestLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fengliumin@163.com/FTestLib.git', :tag => s.version.to_s }
   ## 修改s.source。根据你的实际路径修改。
-  s.source           = { :git => '/Users/qitmac001064/Desktop/hh/FTestLib/FTestLib', :tag => s.version.to_s }
+  #s.source           = { :git => '/Users/qitmac001064/Desktop/hh/FTestLib/FTestLib', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   # 工程依赖系统版本
