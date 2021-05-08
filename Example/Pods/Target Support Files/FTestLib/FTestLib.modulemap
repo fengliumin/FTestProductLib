@@ -1,0 +1,6 @@
+framework module FTestLib {
+  umbrella header "FTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "FTestLib",
+  "version": "0.1.0",
+  "summary": "A short description of FTestLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fengliumin@163.com/FTestLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fengliumin@163.com": "fengliumin@163.com"
+  },
+  "source": {
+    "git": "/Users/qitmac001064/Desktop/hh/FTestLib/FTestLib",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "requires_arc": true,
+  "source_files": "FTestLib/Classes/**/*.{h,m}",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ],
+    "Toast": [
+      "3.0"
+    ]
+  }
+}

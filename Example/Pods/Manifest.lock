@@ -1,0 +1,27 @@
+PODS:
+  - FTestLib (0.1.0):
+    - MBProgressHUD
+    - Toast (= 3.0)
+  - MBProgressHUD (1.2.0)
+  - Toast (3.0)
+
+DEPENDENCIES:
+  - FTestLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - Toast
+
+EXTERNAL SOURCES:
+  FTestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FTestLib: 9678a444ff679a43f3f1204e4fcd6c50e52c54fd
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Toast: 32c59229abfcf41850162b83bb9259dc84372473
+
+PODFILE CHECKSUM: cc90c4922dd309f7be3328ef421b83aabab017c7
+
+COCOAPODS: 1.10.1

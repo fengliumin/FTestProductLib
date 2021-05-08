@@ -7,6 +7,7 @@
 //
 
 #import "FViewController.h"
+#import <FTestLib/FTestLib-umbrella.h>
 
 @interface FViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    Person *person = [[Person alloc]initWithName:@"json" age:20 height:188 weight:130];
+    NSLog(@"%@",person);
 }
 
 - (void)didReceiveMemoryWarning
