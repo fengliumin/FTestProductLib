@@ -45,9 +45,9 @@ TODO: Add long description of the pod here.
   # s.source_files = 'FTestLib/Classes/head/FTestLib.h'
   
   # 资源，比如图片，音频文件等
-  # s.resource_bundles = {
-  #   'FTestLib' => ['FTestLib/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'FTestLib' => ['FTestLib/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # 需要对外开放的头文件   打包只公开特定的头文件

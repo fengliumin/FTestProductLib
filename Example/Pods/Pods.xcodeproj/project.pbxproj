@@ -80,25 +80,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C5C71F8A6C2181E472678EFB712DD57 /* FTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FTestLib.framework; path = FTestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5C71F8A6C2181E472678EFB712DD57 /* FTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FTestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DCDB7597FFF4569BAD865D426C2FFA1 /* FTestLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTestLib-dummy.m"; sourceTree = "<group>"; };
 		0F0793F6BE606EC87A175F090793E6F8 /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = FTestLib/Classes/Person.m; sourceTree = "<group>"; };
 		16EF1F2186DEC85757D89A49B015E77B /* Pods-FTestLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTestLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		18DC6E9B9B1D0716D3E9C92114D2380D /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		20816580798D2054C26B74087E4B4D1A /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/Toast/UIView+Toast.m"; sourceTree = "<group>"; };
 		285374502EE25F45A746E4D7DDBE0757 /* FTestLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FTestLib-Info.plist"; sourceTree = "<group>"; };
-		2914A58FC862D5297FD6EAD63C75C766 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2914A58FC862D5297FD6EAD63C75C766 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		37FD4B921487852CE705C0B1E086A2D2 /* Pods-FTestLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTestLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		39558AD09E961C3710DD0150D875ECF6 /* Pods-FTestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3FBA26C31B8201D6E568E3A21BAAB24B /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		473241DCD52442D8EAA55A48C51C19D8 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		4C619B997A2F09328B18A38D1376C152 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/Toast/UIView+Toast.h"; sourceTree = "<group>"; };
-		4FA393AA2089E4ADAB833AE4C79F7C41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4FA393AA2089E4ADAB833AE4C79F7C41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		50F8BF7665131A2BC48325899F7A97E8 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
 		51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		51B0D0ACB76555246F4DD6EBB734B672 /* Toast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.release.xcconfig; sourceTree = "<group>"; };
 		5338E8226FB7FE29719352890EE58173 /* Toast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-umbrella.h"; sourceTree = "<group>"; };
-		55E0AFD333353D71ACC2207149E879D6 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast.framework; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E0AFD333353D71ACC2207149E879D6 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5798DC068611887EA9C301C9A3BB1AFF /* FTestLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTestLib-prefix.pch"; sourceTree = "<group>"; };
 		58B0B8F04AB6EE93F9CF58F9A1BCF86B /* Pods-FTestLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTestLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		697736FEC20EF84C74BE32F95B8307FB /* FTestLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTestLib.debug.xcconfig; sourceTree = "<group>"; };
@@ -107,27 +107,27 @@
 		6CB8914B08FE6017206404FAA5493F20 /* Pods-FTestLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTestLib_Example-Info.plist"; sourceTree = "<group>"; };
 		6FA1B8B5D0D2B69786B98F5F485CB3B2 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		72DA26C7614AF4DEAB67DA401FD8120B /* FTestLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTestLib.release.xcconfig; sourceTree = "<group>"; };
-		73DB2976283D8D7B3E1254C940544198 /* FTestLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FTestLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73DB2976283D8D7B3E1254C940544198 /* FTestLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FTestLib.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		743DDA666DDA0888B451DD879F4703E2 /* Pods-FTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		790BACF3FB75E77564C146578A8B669F /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Person.h; path = FTestLib/Classes/Person.h; sourceTree = "<group>"; };
 		87735C18F4C0CAC3AB4B7851A65DC501 /* Pods-FTestLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTestLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		88C1F53BBE3BA3D6387FC81173B8C954 /* Pods-FTestLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTestLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE975BB1E379A050F1AC5A1DEA9D91A /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		98111AAF434C4F9AE69DEB68FF031008 /* Toast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toast-Info.plist"; sourceTree = "<group>"; };
 		9C45F66DE10FDCD6D01D6C19240F3800 /* Pods-FTestLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTestLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9C506489F7AADAE1A2D48B3CD3E5967F /* Pods-FTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A171743B37CD93261D85902EBBE4A560 /* Toast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toast.modulemap; sourceTree = "<group>"; };
 		A533E5436ABDD05343704D7CD3934986 /* Pods-FTestLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTestLib_Example-dummy.m"; sourceTree = "<group>"; };
 		ABBA27D6400C6015FBBCB37A44200DD8 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		B98000F46FEC3B2208C45E545B576359 /* FTestLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTestLib-umbrella.h"; sourceTree = "<group>"; };
-		C0935C14B30518A1BBF52E784751F59A /* Pods_FTestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FTestLib_Tests.framework; path = "Pods-FTestLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0935C14B30518A1BBF52E784751F59A /* Pods_FTestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTestLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D0B7C6FFAC99224F674E69850564B6 /* Pods-FTestLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTestLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		CA2790DFC6EAF55630CC491C635FA889 /* Pods-FTestLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTestLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CCEE312DFB708CA59394954CB2BBA2DF /* Pods_FTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FTestLib_Example.framework; path = "Pods-FTestLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEE312DFB708CA59394954CB2BBA2DF /* Pods_FTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTestLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44283A7AFA62F6358D3BF7D1A894010 /* Pods-FTestLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FTestLib_Example.modulemap"; sourceTree = "<group>"; };
 		DB2B2F9EFCF22C79E8BF081C94C32216 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		E4830A5913077382E846186B7833BD6B /* Pods-FTestLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTestLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -201,7 +201,6 @@
 				20816580798D2054C26B74087E4B4D1A /* UIView+Toast.m */,
 				DAB1DE1F3F457DC0F11E55A04DB318CD /* Support Files */,
 			);
-			name = Toast;
 			path = Toast;
 			sourceTree = "<group>";
 		};
@@ -221,7 +220,6 @@
 				18DC6E9B9B1D0716D3E9C92114D2380D /* MBProgressHUD.m */,
 				A47F9FDFA1C141C52A5083E291B59F3A /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -985,8 +983,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
