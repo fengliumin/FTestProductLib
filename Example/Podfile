@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FTestLib_Example' do
+  pod 'FTestLib', :path => '../'
+
+  target 'FTestLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
