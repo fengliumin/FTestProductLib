@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1C537A0F649AAF357004057810CB70DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
-		1D24F3CA3DE759D5CB688C877E40BCFF /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 790BACF3FB75E77564C146578A8B669F /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2004610F635CA7F795AA1540DCF9F911 /* Pods-FTestLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FD4B921487852CE705C0B1E086A2D2 /* Pods-FTestLib_Tests-dummy.m */; };
 		21C715D583A545F9E613C67BBCB7DE59 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C619B997A2F09328B18A38D1376C152 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DA401F8F361E7B42A05D1697E9B4769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		2DF3DE2349329828FED5A0C94E9005B2 /* FTestLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDB7597FFF4569BAD865D426C2FFA1 /* FTestLib-dummy.m */; };
+		329E28A02646B3B5000B002B /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 329E289A2646B3B5000B002B /* Person.h */; };
+		329E28A22646B3B5000B002B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 329E289C2646B3B5000B002B /* Person.m */; };
+		329E28A42646B3B5000B002B /* QCMCrashFusingError.png in Resources */ = {isa = PBXBuildFile; fileRef = 329E289F2646B3B5000B002B /* QCMCrashFusingError.png */; };
 		38FAD08FF65822F0D9F6324E4AE3A980 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6E9B9B1D0716D3E9C92114D2380D /* MBProgressHUD.m */; };
 		3A441FB65DED3FD91B5B54B0EA1C1BA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */; };
-		3C1942BCFD98A25E25949E5E8D2A20CE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0793F6BE606EC87A175F090793E6F8 /* Person.m */; };
 		473801ADC7C261E952B8F5602D52AEFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		4DF3ED1479073DC71ADBAE290F75C6A5 /* Pods-FTestLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B0B8F04AB6EE93F9CF58F9A1BCF86B /* Pods-FTestLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5042D01873E0CABE1EDC797732B3DE13 /* FTestLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B98000F46FEC3B2208C45E545B576359 /* FTestLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,7 +27,6 @@
 		BF75C425E49B22921696A2B66E05EDF8 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 20816580798D2054C26B74087E4B4D1A /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C1AB7CF98B80F60E758A3BBB0BA050AA /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2B2F9EFCF22C79E8BF081C94C32216 /* MBProgressHUD-dummy.m */; };
 		C1E838A888AD6592417AA2D9308C4CAB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */; };
-		CF91CF6C3E230EDE96E01D124383393E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E74E2E75297AFBC3022656629C22D565 /* ReplaceMe.m */; };
 		D7354642DD2B6899660B8A1FD8C9D870 /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5338E8226FB7FE29719352890EE58173 /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAE4E48002F007F0B29397A3AD0BCD37 /* Pods-FTestLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A533E5436ABDD05343704D7CD3934986 /* Pods-FTestLib_Example-dummy.m */; };
 		E1C5CA010770E681EC484B3DF1F61775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
@@ -82,12 +82,14 @@
 /* Begin PBXFileReference section */
 		0C5C71F8A6C2181E472678EFB712DD57 /* FTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FTestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DCDB7597FFF4569BAD865D426C2FFA1 /* FTestLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTestLib-dummy.m"; sourceTree = "<group>"; };
-		0F0793F6BE606EC87A175F090793E6F8 /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = FTestLib/Classes/Person.m; sourceTree = "<group>"; };
 		16EF1F2186DEC85757D89A49B015E77B /* Pods-FTestLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTestLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		18DC6E9B9B1D0716D3E9C92114D2380D /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		20816580798D2054C26B74087E4B4D1A /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/Toast/UIView+Toast.m"; sourceTree = "<group>"; };
 		285374502EE25F45A746E4D7DDBE0757 /* FTestLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FTestLib-Info.plist"; sourceTree = "<group>"; };
 		2914A58FC862D5297FD6EAD63C75C766 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		329E289A2646B3B5000B002B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		329E289C2646B3B5000B002B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		329E289F2646B3B5000B002B /* QCMCrashFusingError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QCMCrashFusingError.png; sourceTree = "<group>"; };
 		37FD4B921487852CE705C0B1E086A2D2 /* Pods-FTestLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTestLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		39558AD09E961C3710DD0150D875ECF6 /* Pods-FTestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3FBA26C31B8201D6E568E3A21BAAB24B /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
@@ -109,7 +111,6 @@
 		72DA26C7614AF4DEAB67DA401FD8120B /* FTestLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTestLib.release.xcconfig; sourceTree = "<group>"; };
 		73DB2976283D8D7B3E1254C940544198 /* FTestLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FTestLib.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		743DDA666DDA0888B451DD879F4703E2 /* Pods-FTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		790BACF3FB75E77564C146578A8B669F /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Person.h; path = FTestLib/Classes/Person.h; sourceTree = "<group>"; };
 		87735C18F4C0CAC3AB4B7851A65DC501 /* Pods-FTestLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTestLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		88C1F53BBE3BA3D6387FC81173B8C954 /* Pods-FTestLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTestLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +133,6 @@
 		DB2B2F9EFCF22C79E8BF081C94C32216 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		E4830A5913077382E846186B7833BD6B /* Pods-FTestLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTestLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E6EDCEC7209EB54CFD89D943562E8C82 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
-		E74E2E75297AFBC3022656629C22D565 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FTestLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		EE31C37EE8E64AAB89ABDFF94AEB21C6 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		F1CADBEE67CF841E31D57727C464E4E1 /* Pods-FTestLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTestLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		FBAF3A99D19A310DCB75457D47291993 /* Pods-FTestLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FTestLib_Tests.modulemap"; sourceTree = "<group>"; };
@@ -213,6 +213,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		329E28992646B3B5000B002B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				329E289A2646B3B5000B002B /* Person.h */,
+				329E289C2646B3B5000B002B /* Person.m */,
+			);
+			name = Classes;
+			path = FTestLib/Classes;
+			sourceTree = "<group>";
+		};
+		329E289D2646B3B5000B002B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				329E289F2646B3B5000B002B /* QCMCrashFusingError.png */,
+			);
+			name = Assets;
+			path = FTestLib/Assets;
+			sourceTree = "<group>";
+		};
 		344CF2A3849CD9F1A73A8962CDA87D19 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,9 +255,8 @@
 		51C8FDBDC636F7CD7C39B3840FA20E5C /* FTestLib */ = {
 			isa = PBXGroup;
 			children = (
-				790BACF3FB75E77564C146578A8B669F /* Person.h */,
-				0F0793F6BE606EC87A175F090793E6F8 /* Person.m */,
-				E74E2E75297AFBC3022656629C22D565 /* ReplaceMe.m */,
+				329E289D2646B3B5000B002B /* Assets */,
+				329E28992646B3B5000B002B /* Classes */,
 				88FBC6B8D130888CEF84EE0DCAAB9C2D /* Pod */,
 				95980222E0A8B8FF3AACB67F00B578FD /* Support Files */,
 			);
@@ -417,7 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5042D01873E0CABE1EDC797732B3DE13 /* FTestLib-umbrella.h in Headers */,
-				1D24F3CA3DE759D5CB688C877E40BCFF /* Person.h in Headers */,
+				329E28A02646B3B5000B002B /* Person.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +602,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329E28A42646B3B5000B002B /* QCMCrashFusingError.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,9 +647,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329E28A22646B3B5000B002B /* Person.m in Sources */,
 				2DF3DE2349329828FED5A0C94E9005B2 /* FTestLib-dummy.m in Sources */,
-				3C1942BCFD98A25E25949E5E8D2A20CE /* Person.m in Sources */,
-				CF91CF6C3E230EDE96E01D124383393E /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
