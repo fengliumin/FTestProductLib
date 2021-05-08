@@ -209,6 +209,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				117C36AD495B4090EF1EC82D /* [CP] Embed Pods Frameworks */,
+				1D889DFA8CD7864964C5E5D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -335,6 +336,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FTestLib_Example/Pods-FTestLib_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D889DFA8CD7864964C5E5D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FTestLib_Example/Pods-FTestLib_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FTestLib/FTestLib.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FTestLib.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FTestLib_Example/Pods-FTestLib_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		886AA1E675E3ABDA8DEE292B /* [CP] Check Pods Manifest.lock */ = {

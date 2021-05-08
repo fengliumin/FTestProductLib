@@ -1,5 +1,5 @@
 PODS:
-  - FTestLib (0.1.0):
+  - FTestLib (0.1.2):
     - MBProgressHUD
     - Toast (= 3.0)
   - MBProgressHUD (1.2.0)
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FTestLib: 62620e33c6abcbc0fb4d9e4252ea185ee9538b62
+  FTestLib: ad4f9b79799b6946dec4dd42126042d5e2707c1e
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   Toast: 32c59229abfcf41850162b83bb9259dc84372473
 
